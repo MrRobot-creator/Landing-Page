@@ -1,0 +1,2 @@
+AOS.init();const dataDoEvento=new Date("sept 28, 2025 19:00:00"),timeStampDoEvento=dataDoEvento.getTime(),contaAsHoras=setInterval(function(){const t=(new Date).getTime(),e=timeStampDoEvento-t,o=864e5,n=36e5,a=Math.floor(e/o),r=Math.floor(e%o/n),m=Math.floor(e%n/6e4),c=Math.floor(e%6e4/1e3);document.getElementById("contador").innerHTML=`${a}d ${r}h ${m}m ${c}s`,e<0&&(clearInterval(contaAsHoras),document.getElementById("contador").innerHTML="Evento Expirado")},1e3);
+//# sourceMappingURL=index.afd9bb57.js.map

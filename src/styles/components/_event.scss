@@ -1,4 +1,4 @@
-@use 'variables';
+@use '../variables';
 
 .event {
     padding: 80px 0;
@@ -7,7 +7,7 @@
     background-image: linear-gradient(variables.$blue1, variables.$blue2);
     }
 
-    &--ui--ux {
+    &--ui-ux {
         background-image: linear-gradient(variables.$blue2, variables.$pink);
         }
 
